@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F23610EF1CD23CEC00098BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23610EE1CD23CEC00098BD4 /* AppDelegate.swift */; };
+		F23610F11CD23CEC00098BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23610F01CD23CEC00098BD4 /* ViewController.swift */; };
+		F23610F41CD23CEC00098BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23610F21CD23CEC00098BD4 /* Main.storyboard */; };
+		F23610F71CD23CEC00098BD4 /* ezSocial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F23610F51CD23CEC00098BD4 /* ezSocial.xcdatamodeld */; };
+		F23610F91CD23CEC00098BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23610F81CD23CEC00098BD4 /* Assets.xcassets */; };
+		F23610FC1CD23CEC00098BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23610FA1CD23CEC00098BD4 /* LaunchScreen.storyboard */; };
+		F23611071CD23CEC00098BD4 /* ezSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23611061CD23CEC00098BD4 /* ezSocialTests.swift */; };
+		F23611121CD23CEC00098BD4 /* ezSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23611111CD23CEC00098BD4 /* ezSocialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F23611031CD23CEC00098BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23610E31CD23CEB00098BD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23610EA1CD23CEC00098BD4;
+			remoteInfo = ezSocial;
+		};
+		F236110E1CD23CEC00098BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23610E31CD23CEB00098BD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23610EA1CD23CEC00098BD4;
+			remoteInfo = ezSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F23610EB1CD23CEC00098BD4 /* ezSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ezSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23610EE1CD23CEC00098BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F23610F01CD23CEC00098BD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F23610F31CD23CEC00098BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F23610F61CD23CEC00098BD4 /* ezSocial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ezSocial.xcdatamodel; sourceTree = "<group>"; };
+		F23610F81CD23CEC00098BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F23610FB1CD23CEC00098BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F23610FD1CD23CEC00098BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23611021CD23CEC00098BD4 /* ezSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ezSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23611061CD23CEC00098BD4 /* ezSocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ezSocialTests.swift; sourceTree = "<group>"; };
+		F23611081CD23CEC00098BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F236110D1CD23CEC00098BD4 /* ezSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ezSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23611111CD23CEC00098BD4 /* ezSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ezSocialUITests.swift; sourceTree = "<group>"; };
+		F23611131CD23CEC00098BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F23610E81CD23CEC00098BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23610FF1CD23CEC00098BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F236110A1CD23CEC00098BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F23610E21CD23CEB00098BD4 = {
+			isa = PBXGroup;
+			children = (
+				F23610ED1CD23CEC00098BD4 /* ezSocial */,
+				F23611051CD23CEC00098BD4 /* ezSocialTests */,
+				F23611101CD23CEC00098BD4 /* ezSocialUITests */,
+				F23610EC1CD23CEC00098BD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F23610EC1CD23CEC00098BD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F23610EB1CD23CEC00098BD4 /* ezSocial.app */,
+				F23611021CD23CEC00098BD4 /* ezSocialTests.xctest */,
+				F236110D1CD23CEC00098BD4 /* ezSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F23610ED1CD23CEC00098BD4 /* ezSocial */ = {
+			isa = PBXGroup;
+			children = (
+				F23610EE1CD23CEC00098BD4 /* AppDelegate.swift */,
+				F23610F01CD23CEC00098BD4 /* ViewController.swift */,
+				F23610F21CD23CEC00098BD4 /* Main.storyboard */,
+				F23610F81CD23CEC00098BD4 /* Assets.xcassets */,
+				F23610FA1CD23CEC00098BD4 /* LaunchScreen.storyboard */,
+				F23610FD1CD23CEC00098BD4 /* Info.plist */,
+				F23610F51CD23CEC00098BD4 /* ezSocial.xcdatamodeld */,
+			);
+			path = ezSocial;
+			sourceTree = "<group>";
+		};
+		F23611051CD23CEC00098BD4 /* ezSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				F23611061CD23CEC00098BD4 /* ezSocialTests.swift */,
+				F23611081CD23CEC00098BD4 /* Info.plist */,
+			);
+			path = ezSocialTests;
+			sourceTree = "<group>";
+		};
+		F23611101CD23CEC00098BD4 /* ezSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F23611111CD23CEC00098BD4 /* ezSocialUITests.swift */,
+				F23611131CD23CEC00098BD4 /* Info.plist */,
+			);
+			path = ezSocialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F23610EA1CD23CEC00098BD4 /* ezSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23611161CD23CEC00098BD4 /* Build configuration list for PBXNativeTarget "ezSocial" */;
+			buildPhases = (
+				F23610E71CD23CEC00098BD4 /* Sources */,
+				F23610E81CD23CEC00098BD4 /* Frameworks */,
+				F23610E91CD23CEC00098BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ezSocial;
+			productName = ezSocial;
+			productReference = F23610EB1CD23CEC00098BD4 /* ezSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F23611011CD23CEC00098BD4 /* ezSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23611191CD23CEC00098BD4 /* Build configuration list for PBXNativeTarget "ezSocialTests" */;
+			buildPhases = (
+				F23610FE1CD23CEC00098BD4 /* Sources */,
+				F23610FF1CD23CEC00098BD4 /* Frameworks */,
+				F23611001CD23CEC00098BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23611041CD23CEC00098BD4 /* PBXTargetDependency */,
+			);
+			name = ezSocialTests;
+			productName = ezSocialTests;
+			productReference = F23611021CD23CEC00098BD4 /* ezSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F236110C1CD23CEC00098BD4 /* ezSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F236111C1CD23CEC00098BD4 /* Build configuration list for PBXNativeTarget "ezSocialUITests" */;
+			buildPhases = (
+				F23611091CD23CEC00098BD4 /* Sources */,
+				F236110A1CD23CEC00098BD4 /* Frameworks */,
+				F236110B1CD23CEC00098BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F236110F1CD23CEC00098BD4 /* PBXTargetDependency */,
+			);
+			name = ezSocialUITests;
+			productName = ezSocialUITests;
+			productReference = F236110D1CD23CEC00098BD4 /* ezSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F23610E31CD23CEB00098BD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YehYungCheng;
+				TargetAttributes = {
+					F23610EA1CD23CEC00098BD4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZRU74Q6CGE;
+					};
+					F23611011CD23CEC00098BD4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZRU74Q6CGE;
+						TestTargetID = F23610EA1CD23CEC00098BD4;
+					};
+					F236110C1CD23CEC00098BD4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZRU74Q6CGE;
+						TestTargetID = F23610EA1CD23CEC00098BD4;
+					};
+				};
+			};
+			buildConfigurationList = F23610E61CD23CEB00098BD4 /* Build configuration list for PBXProject "ezSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F23610E21CD23CEB00098BD4;
+			productRefGroup = F23610EC1CD23CEC00098BD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F23610EA1CD23CEC00098BD4 /* ezSocial */,
+				F23611011CD23CEC00098BD4 /* ezSocialTests */,
+				F236110C1CD23CEC00098BD4 /* ezSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F23610E91CD23CEC00098BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23610FC1CD23CEC00098BD4 /* LaunchScreen.storyboard in Resources */,
+				F23610F91CD23CEC00098BD4 /* Assets.xcassets in Resources */,
+				F23610F41CD23CEC00098BD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23611001CD23CEC00098BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F236110B1CD23CEC00098BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F23610E71CD23CEC00098BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23610F11CD23CEC00098BD4 /* ViewController.swift in Sources */,
+				F23610EF1CD23CEC00098BD4 /* AppDelegate.swift in Sources */,
+				F23610F71CD23CEC00098BD4 /* ezSocial.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23610FE1CD23CEC00098BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23611071CD23CEC00098BD4 /* ezSocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23611091CD23CEC00098BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23611121CD23CEC00098BD4 /* ezSocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F23611041CD23CEC00098BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23610EA1CD23CEC00098BD4 /* ezSocial */;
+			targetProxy = F23611031CD23CEC00098BD4 /* PBXContainerItemProxy */;
+		};
+		F236110F1CD23CEC00098BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23610EA1CD23CEC00098BD4 /* ezSocial */;
+			targetProxy = F236110E1CD23CEC00098BD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F23610F21CD23CEC00098BD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23610F31CD23CEC00098BD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F23610FA1CD23CEC00098BD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23610FB1CD23CEC00098BD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F23611141CD23CEC00098BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F23611151CD23CEC00098BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F23611171CD23CEC00098BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ezSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.yyc.ezSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F23611181CD23CEC00098BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ezSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.yyc.ezSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F236111A1CD23CEC00098BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ezSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.yyc.ezSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ezSocial.app/ezSocial";
+			};
+			name = Debug;
+		};
+		F236111B1CD23CEC00098BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ezSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.yyc.ezSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ezSocial.app/ezSocial";
+			};
+			name = Release;
+		};
+		F236111D1CD23CEC00098BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ezSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.yyc.ezSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ezSocial;
+			};
+			name = Debug;
+		};
+		F236111E1CD23CEC00098BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ezSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.yyc.ezSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ezSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F23610E61CD23CEB00098BD4 /* Build configuration list for PBXProject "ezSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23611141CD23CEC00098BD4 /* Debug */,
+				F23611151CD23CEC00098BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23611161CD23CEC00098BD4 /* Build configuration list for PBXNativeTarget "ezSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23611171CD23CEC00098BD4 /* Debug */,
+				F23611181CD23CEC00098BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F23611191CD23CEC00098BD4 /* Build configuration list for PBXNativeTarget "ezSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F236111A1CD23CEC00098BD4 /* Debug */,
+				F236111B1CD23CEC00098BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F236111C1CD23CEC00098BD4 /* Build configuration list for PBXNativeTarget "ezSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F236111D1CD23CEC00098BD4 /* Debug */,
+				F236111E1CD23CEC00098BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F23610F51CD23CEC00098BD4 /* ezSocial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F23610F61CD23CEC00098BD4 /* ezSocial.xcdatamodel */,
+			);
+			currentVersion = F23610F61CD23CEC00098BD4 /* ezSocial.xcdatamodel */;
+			path = ezSocial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F23610E31CD23CEB00098BD4 /* Project object */;
+}
