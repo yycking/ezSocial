@@ -15,6 +15,10 @@
 		F23610FC1CD23CEC00098BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23610FA1CD23CEC00098BD4 /* LaunchScreen.storyboard */; };
 		F23611071CD23CEC00098BD4 /* ezSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23611061CD23CEC00098BD4 /* ezSocialTests.swift */; };
 		F23611121CD23CEC00098BD4 /* ezSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23611111CD23CEC00098BD4 /* ezSocialUITests.swift */; };
+		F23611221CD8F3B500098BD4 /* FailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23611211CD8F3B500098BD4 /* FailView.xib */; };
+		F23611241CD997A000098BD4 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23611231CD997A000098BD4 /* SocialViewController.swift */; };
+		F23611261CD99F0B00098BD4 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23611251CD99F0B00098BD4 /* FacebookViewController.swift */; };
+		F236112F1CDA00EA00098BD4 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236112E1CDA00EA00098BD4 /* DownloadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F236110D1CD23CEC00098BD4 /* ezSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ezSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23611111CD23CEC00098BD4 /* ezSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ezSocialUITests.swift; sourceTree = "<group>"; };
 		F23611131CD23CEC00098BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23611211CD8F3B500098BD4 /* FailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FailView.xib; sourceTree = "<group>"; };
+		F23611231CD997A000098BD4 /* SocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		F23611251CD99F0B00098BD4 /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		F236112E1CDA00EA00098BD4 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,18 @@
 		F23610ED1CD23CEC00098BD4 /* ezSocial */ = {
 			isa = PBXGroup;
 			children = (
+				F23611291CD9CEEA00098BD4 /* image */,
 				F23610EE1CD23CEC00098BD4 /* AppDelegate.swift */,
 				F23610F01CD23CEC00098BD4 /* ViewController.swift */,
+				F23611231CD997A000098BD4 /* SocialViewController.swift */,
+				F23611251CD99F0B00098BD4 /* FacebookViewController.swift */,
 				F23610F21CD23CEC00098BD4 /* Main.storyboard */,
 				F23610F81CD23CEC00098BD4 /* Assets.xcassets */,
 				F23610FA1CD23CEC00098BD4 /* LaunchScreen.storyboard */,
 				F23610FD1CD23CEC00098BD4 /* Info.plist */,
 				F23610F51CD23CEC00098BD4 /* ezSocial.xcdatamodeld */,
+				F23611211CD8F3B500098BD4 /* FailView.xib */,
+				F236112E1CDA00EA00098BD4 /* DownloadManager.swift */,
 			);
 			path = ezSocial;
 			sourceTree = "<group>";
@@ -126,6 +139,13 @@
 				F23611131CD23CEC00098BD4 /* Info.plist */,
 			);
 			path = ezSocialUITests;
+			sourceTree = "<group>";
+		};
+		F23611291CD9CEEA00098BD4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23611221CD8F3B500098BD4 /* FailView.xib in Resources */,
 				F23610FC1CD23CEC00098BD4 /* LaunchScreen.storyboard in Resources */,
 				F23610F91CD23CEC00098BD4 /* Assets.xcassets in Resources */,
 				F23610F41CD23CEC00098BD4 /* Main.storyboard in Resources */,
@@ -263,8 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F23610F11CD23CEC00098BD4 /* ViewController.swift in Sources */,
+				F236112F1CDA00EA00098BD4 /* DownloadManager.swift in Sources */,
 				F23610EF1CD23CEC00098BD4 /* AppDelegate.swift in Sources */,
+				F23611261CD99F0B00098BD4 /* FacebookViewController.swift in Sources */,
 				F23610F71CD23CEC00098BD4 /* ezSocial.xcdatamodeld in Sources */,
+				F23611241CD997A000098BD4 /* SocialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +515,7 @@
 				F23611181CD23CEC00098BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F23611191CD23CEC00098BD4 /* Build configuration list for PBXNativeTarget "ezSocialTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +524,7 @@
 				F236111B1CD23CEC00098BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F236111C1CD23CEC00098BD4 /* Build configuration list for PBXNativeTarget "ezSocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +533,7 @@
 				F236111E1CD23CEC00098BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
